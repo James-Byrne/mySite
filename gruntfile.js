@@ -60,7 +60,7 @@ module.exports = function (grunt) {
         }
       },
       clientSCSS: {
-        files: defaultAssets.client.sass,
+        files: defaultAssets.client.scss,
         tasks: ['sass', 'csslint'],
         options: {
           livereload: true
