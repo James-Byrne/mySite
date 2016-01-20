@@ -6,5 +6,6 @@
 }
 
 .main-background {
-  background-image: 'url(modules/core/client/img/background/background.png)';
+  background-image: url('../img/background/background-image.png');
+  background-size: cover;
 }
