@@ -1,9 +1,6 @@
-// TODO : Add scss files to the project
-
-
-.testClass {
-  color: black;
-}
+// Add the imports here
+@import "home.scss";
+@import "header.scss";
 
 .main-background {
   background-image: url('../img/background/background-image.png');

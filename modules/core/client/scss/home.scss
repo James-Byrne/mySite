@@ -1,0 +1,31 @@
+// SCSS stylings for the home page
+// TODO : Move the font familys somewhere else
+@font-face {
+  font-family: copperplate;
+  src: url(../fonts/Copperplate.ttc);
+  font-weight: lighter;
+}
+.home-background {
+  background-color: transparent;
+}
+.home-content {
+  color: white;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  max-width: 40%;
+  // TODO : Add the proper fonts below here
+  font-family: copperplate;
+}
+.home-title {
+  font-size: 32px;
+  // font-family: copperplate;
+  margin-bottom: 21px;
+  margin-top: 21px;
+}
+.home-body-text {
+  font-size: 20px;
+  // font-family: copperplate;
+  margin-top: 21px;
+}

@@ -23,18 +23,4 @@
   font-size: 20px;
   margin-top: 21px; }
 
-.header-background {
-  background-color: transparent; }
-
-.header-bar {
-  color: white;
-  padding-left: 5%;
-  padding-right: 5%;
-  max-height: 120px;
-  height: auto; }
-
-.main-background {
-  background-image: url("../img/background/background-image.png");
-  background-size: cover; }
-
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=home.css.map */
