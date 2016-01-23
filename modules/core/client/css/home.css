@@ -23,4 +23,16 @@
   font-size: 20px;
   margin-top: 21px; }
 
+.home-social-button {
+  opacity: 0.45;
+  color: white;
+  width: 35px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 2px #E0E0E0 solid;
+  border-radius: 50%; }
+
+.home-social-button:hover {
+  opacity: 0.75; }
+
 /*# sourceMappingURL=home.css.map */
