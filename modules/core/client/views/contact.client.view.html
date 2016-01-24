@@ -1,0 +1,43 @@
+<md-content class="home-background contact-content" layout="row" layout-align="center center">
+
+  <div flex="40" id="container" class="contact-container">
+    <div flex class="top-line"></div>
+    <div flex class="form-container">
+      <p>
+        Lorem ipsum dolor sit amet, doming noster at quo, nostrud lucilius rationibus ea duo. Vim no mucius dolores. No bonorum voluptatum vis, has iudicabit consectetuer ne. Nullam sensibus vim id, et quo graeci perpetua.
+      </p>
+
+      <form class="contact-form">
+
+        <md-input-container class="md-block md-primary">
+          <label>Email</label>
+          <input required name="email" ng-model="contact.email">
+          <div ng-messages="contactForm.email.$error">
+            <div ng-message="required">This is required.</div>
+          </div>
+        </md-input-container>
+
+        <md-input-container class="md-block">
+          <label>Name</label>
+          <input required name="name" ng-model="contact.name">
+          <div ng-messages="contactForm.name.$error">
+            <div ng-message="required">This is required.</div>
+          </div>
+        </md-input-container>
+
+        <md-input-container class="md-block">
+          <label>Message</label>
+          <input required name="mesage" ng-model="contact.message">
+          <div ng-messages="contactForm.message.$error">
+            <div ng-message="required">This is required.</div>
+          </div>
+        </md-input-container>
+
+
+        <md-button flex class="md-raised">Submit</md-button>
+
+      </form>
+    </div>
+  </div>
+
+</md-content>

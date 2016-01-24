@@ -11,7 +11,7 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 5%;
-  max-width: 40%;
+  width: 40%;
   font-family: copperplate; }
 
 .home-title {
@@ -25,7 +25,6 @@
 
 .home-social-button {
   opacity: 0.45;
-  color: white;
   width: 35px;
   margin-left: 10px;
   margin-right: 10px;

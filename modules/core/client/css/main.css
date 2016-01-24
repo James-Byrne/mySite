@@ -11,7 +11,7 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 5%;
-  max-width: 40%;
+  width: 40%;
   font-family: copperplate; }
 
 .home-title {
@@ -25,7 +25,6 @@
 
 .home-social-button {
   opacity: 0.45;
-  color: white;
   width: 35px;
   margin-left: 10px;
   margin-right: 10px;
@@ -45,11 +44,42 @@
   max-height: 120px;
   height: auto; }
 
+.contact-container {
+  color: white !important;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26), 0 2px 10px 0 rgba(0, 0, 0, 0.16);
+  background: rgba(2, 119, 189, 0.6); }
+
+.top-line {
+  background: #01579B;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 30px; }
+
+.form-container {
+  width: 100%;
+  padding: 20px; }
+
+.contact-form {
+  margin-top: 40px; }
+
+md-input-container .md-input {
+  border-color: white; }
+
+md-input-container label {
+  color: white; }
+
+.md-input-focused {
+  border-color: white;
+  color: white; }
+
 .main-background {
   background-image: url("../img/background/background-image.png");
   background-size: cover; }
 
 a {
   color: transparent; }
+
+.md-button {
+  background-color: #0091EA; }
 
 /*# sourceMappingURL=main.css.map */

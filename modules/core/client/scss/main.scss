@@ -1,6 +1,7 @@
 // Add the imports here
 @import "home.scss";
 @import "header.scss";
+@import "contact.scss";
 
 .main-background {
   background-image: url('../img/background/background-image.png');
@@ -8,4 +9,7 @@
 }
 a {
   color: transparent;
+}
+.md-button {
+  background-color: #0091EA
 }

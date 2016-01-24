@@ -9,7 +9,7 @@ angular.module('core').config(['$stateProvider', '$urlRouterProvider', '$mdThemi
     // Setting the default hue to ve used in primary color pallete
     // TODO: Set this to the correct shades of blue & color x?
     .primaryPalette('grey', {
-      'default' : '900'
+      'default' : '50'
     })
     .accentPalette('green', {
       'default' : '600'
@@ -29,9 +29,9 @@ angular.module('core').config(['$stateProvider', '$urlRouterProvider', '$mdThemi
       templateUrl: 'modules/core/client/views/home.client.view.html'
     })
     // TODO : Replace the above home with the home dev once completed
-    .state('homePageDev', {
-      url: '/homedev',
-      templateUrl: 'modules/core/client/views/homedev.client.view.html'
+    .state('contact', {
+      url: '/contact',
+      templateUrl: 'modules/core/client/views/contact.client.view.html'
     })
     .state('not-found', {
       url: '/not-found',

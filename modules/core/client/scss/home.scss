@@ -1,5 +1,6 @@
 // SCSS stylings for the home page
 // TODO : Move the font familys somewhere else
+// TODO : use flex instead of width
 @font-face {
   font-family: copperplate;
   src: url(../fonts/Copperplate.ttc);
@@ -14,8 +15,7 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 5%;
-  max-width: 40%;
-  // TODO : Add the proper fonts below here
+  width: 40%;
   font-family: copperplate;
 }
 .home-title {
@@ -29,7 +29,6 @@
 }
 .home-social-button {
   opacity: 0.45;
-  color: white;
   width: 35px;
   margin-left: 10px;
   margin-right: 10px;
