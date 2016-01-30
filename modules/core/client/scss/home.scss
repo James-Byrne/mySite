@@ -18,6 +18,16 @@
   width: 40%;
   font-family: copperplate;
 }
+@media (max-width: 1000px) {
+  .home-content {
+    width: 70%;
+  }
+}
+@media (max-width: 600px) {
+  .home-content {
+    width: 100%;
+  }
+}
 .home-title {
   font-size: 32px;
   margin-bottom: 21px;

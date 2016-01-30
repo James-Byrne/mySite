@@ -1,11 +1,16 @@
 // Add the imports here
-@import "home.scss";
-@import "header.scss";
-@import "contact.scss";
+// @import "home.scss";
+// @import "header.scss";
+// @import "contact.scss";
 
 .main-background {
   background-image: url('../img/background/background.png');
   background-size: cover;
+}
+@media (max-width: 600px) {
+  .main-background{
+    background-image: url('../img/background/background-dark.png');
+  }
 }
 a {
   color: transparent;
