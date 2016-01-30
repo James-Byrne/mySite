@@ -5,10 +5,10 @@ angular.module('core').controller('HeaderController', ['$scope', '$state', 'Auth
     // Expose view variables
     $scope.$state = $state;
     console.log($state.$current.$self);
-    console.log("the current state name : " + $state.current.$name);
+    console.log('the current state name : ' + $state.current.$name);
 
     // if we are on the home screen hide the logo in the top left
-    if ($state.current.name === "homePageDev"){
+    if ($state.current.name === 'homePageDev'){
       $scope.hideLogo = true;
     }
 
