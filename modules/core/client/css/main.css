@@ -34,6 +34,10 @@
 .home-social-button:hover {
   opacity: 0.75; }
 
+.home-logo {
+  width: 89px;
+  height: 89px; }
+
 .header-background {
   background-color: transparent; }
 
@@ -73,7 +77,7 @@ md-input-container label {
   color: white; }
 
 .main-background {
-  background-image: url("../img/background/background-image.png");
+  background-image: url("../img/background/background.png");
   background-size: cover; }
 
 a {
