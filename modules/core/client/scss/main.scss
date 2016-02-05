@@ -4,12 +4,13 @@
 // @import "contact.scss";
 
 .main-background {
-  background-image: url('modules/core/client/img/background/background.png');
+  background-image: url('../img/background/background.png');
   background-size: cover;
+  min-height: 600px;
 }
 @media (max-width: 600px) {
-  .main-background{
-    background-image: url('modules/core/client/img/background/background-dark.png');
+  .main-background {
+    background-image: url('../img/background/background-mobile-small.png');
   }
 }
 a {

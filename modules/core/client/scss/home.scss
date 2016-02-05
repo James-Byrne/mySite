@@ -23,6 +23,11 @@
     width: 70%;
   }
 }
+@media (min-height: 625px) and (max-width: 1000px){
+  .home-content {
+    margin-top: 33%;
+  }
+}
 @media (max-width: 600px) {
   .home-content {
     width: 100%;
