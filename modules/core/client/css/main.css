@@ -5,8 +5,7 @@
 
 @media (max-width: 600px) {
   .main-background {
-    background-image: url("../img/background/background-mobile-small.png");
-    height: 120vh; } }
+    background-image: url("../img/background/background-mobile-small.png"); } }
 a {
   color: transparent; }
 
