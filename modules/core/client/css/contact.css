@@ -10,16 +10,19 @@
   height: 30px; }
 
 .form-container {
-  width: 100%;
   padding: 20px; }
 
 .contact-form {
   margin-top: 40px; }
 
 md-input-container .md-input {
-  border-color: white; }
+  border-color: white;
+  color: white; }
 
 md-input-container label {
+  color: white; }
+
+md-input-container:not(.md-input-invalid).md-input-has-value label {
   color: white; }
 
 .md-input-focused {

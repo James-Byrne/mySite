@@ -1,17 +1,17 @@
 <md-content class="home-background contact-content" layout="row" layout-align="center center">
 
-  <div flex="40" id="container" class="contact-container">
+  <div flex=40 flex-sm=60 flex-xs=95 class="contact-container">
     <div flex class="top-line"></div>
-    <div flex class="form-container">
+    <div flex=100 class="form-container">
       <p>
         Lorem ipsum dolor sit amet, doming noster at quo, nostrud lucilius rationibus ea duo. Vim no mucius dolores. No bonorum voluptatum vis, has iudicabit consectetuer ne. Nullam sensibus vim id, et quo graeci perpetua.
       </p>
 
-      <form class="contact-form">
+      <form name="contactForm" class="contact-form">
 
         <md-input-container class="md-block md-primary">
           <label>Email</label>
-          <input required name="email" ng-model="contact.email">
+          <input type="email" ng-model="contact.email" required>
           <div ng-messages="contactForm.email.$error">
             <div ng-message="required">This is required.</div>
           </div>
@@ -19,22 +19,18 @@
 
         <md-input-container class="md-block">
           <label>Name</label>
-          <input required name="name" ng-model="contact.name">
+          <input ng-model="contact.name" required>
           <div ng-messages="contactForm.name.$error">
             <div ng-message="required">This is required.</div>
           </div>
         </md-input-container>
 
-        <md-input-container class="md-block">
-          <label>Message</label>
-          <input required name="mesage" ng-model="contact.message">
-          <div ng-messages="contactForm.message.$error">
-            <div ng-message="required">This is required.</div>
-          </div>
-        </md-input-container>
+        <label>Your Message</label>
+        <md-card style="margin-left:0; margin-right:0">
+          <textarea flex=100 rows="4" style="border:0px"></textarea>
+        </md-card>
 
-
-        <md-button flex class="md-raised">Submit</md-button>
+        <md-button ng-disabled="contactForm.$invalid" layout-fill style="margin-left:0; margin-right:0" class="md-raised">Submit</md-button>
 
       </form>
     </div>

@@ -5,6 +5,10 @@ ehthumbs.db
 Icon?
 Thumbs.db
 
+# Custom Ignore Files 
+# ============================
+*.map
+
 # Node and related ecosystem
 # ==========================
 .nodemonignore

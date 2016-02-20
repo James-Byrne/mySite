@@ -7,10 +7,12 @@
   background-image: url('../img/background/background.png');
   background-size: cover;
   min-height: 600px;
+  background-attachment: fixed;
 }
 @media (max-width: 600px) {
   .main-background {
     background-image: url('../img/background/background-mobile-small.png');
+    min-height: 150vh;
   }
 }
 a {
